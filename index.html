@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>words</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   <script type="text/javascript" src="jquery/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="jquery/popper.min.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+<script type="text/javascript" src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+<link rel="manifest" href="manifest.json">
+<script type="text/javascript">
+  if ('serviceWorker' in navigator){
+  window.addEventListener('load',function(){
+  navigator.serviceWorker.register('sw.js').then(function(){
+   // alert("service worker register");
+  });
+  });
+}
+</script>
+<body>
+<div id="app" class="container-fliud">
+    <nav class="navbar navbar-expand-lg navbar-light bg-red" style="background-color: yellow">
+        <a class="navbar-brand" href="#">TRANS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Word <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sen.html">Sentence</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li> -->
+
+            </ul>
+           <!--  <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/login') }}">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/register') }}">Register</a>
+                </li>
+            </ul> -->
+        </div>
+    </nav>
+</div>
+              <h2  class="text-center"  style="color: blue">WORDS</h2>
+<div class="container-fliud"> 
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Two Letter</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Three Letter</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Four Letter</a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  	<table class="table table-striped">
+   <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">English</th>
+      <th scope="col">Yoruba</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>An</td>
+      <td>ohun</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>If</td>
+      <td>ti o ba ti</td>
+      
+    </tr>
+   <!--  <tr>
+      <th scope="row">3</th>
+      <td>On</td>
+      <td></td>
+      
+    </tr> -->
+    <tr>
+    	<td>3</td>
+    	<td>At</td>
+    	<td>ni</td>
+    </tr>
+     <tr>
+    	<td>4</td>
+    	<td>Do</td>
+    	<td>ṣe</td>
+    </tr>
+   <!--   <tr>
+    	<td>5</td>
+    	<td>He</td>
+    	<td></td>
+    </tr>
+     <tr>
+    	<td>6</td>
+    	<td>So</td>
+    	<td>  </td>
+    </tr> -->
+     <tr>
+    	<td>7</td>
+    	<td>My</td>
+    	<td> mi </td>
+    </tr>
+     <tr>
+    	<td>8</td>
+    	<td>No</td>
+    	<td> ko si </td>
+    </tr>
+    	<!--  <tr>
+    	<td>9</td>
+    	<td>Us</td>
+    	<td>  </td>
+    </tr> -->
+     <tr>
+    	<td>10</td>
+    	<td>Up</td>
+    	<td>soke</td>
+    </tr>
+    <!--  <tr>
+    	<td>11</td>
+    	<td>We</td>
+    	<td></td>
+    </tr> -->
+     <tr>
+    	<td>12</td>
+    	<td>As</td>
+    	<td>bi</td>
+    </tr>
+     <tr>
+    	<td>13</td>
+    	<td>Am</td>
+    	<td>emi</td>
+    </tr>
+     <tr>
+    	<td>14</td>
+    	<td>Go</td>
+    	<td>lọ</td>
+    </tr>
+     <tr>
+    	<td>15</td>
+    	<td>Is</td>
+    	<td>ni</td>
+    </tr>
+     <tr>
+    	<td>16</td>
+    	<td>Me</td>
+    	<td>mi</td>
+    </tr>
+     <tr>
+    	<td>17</td>
+    	<td>Or</td>
+    	<td>tabi</td>
+    </tr>
+     <tr>
+    	<!-- <td>18</td>
+    	<td>To</td>
+    	<td></td>
+    </tr> -->
+  </tbody>
+</table>
+</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+  	<table class="table table-striped">
+  
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Are</td>
+      <td>ni o wa</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>And</td>
+      <td>ati</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>add</td>
+      <td>fi</td>
+     
+    </tr>
+    <tr>
+    	<td>4</td>
+        <td>Act</td>
+        <td>igbese</td>
+    </tr>
+     <tr>
+    	<td>5</td>
+        <td>All</td>
+        <td>gbogbo</td>
+    </tr>
+     <tr>
+    	<td>6</td>
+        <td>Any</td>
+        <td>eyikeyi</td>
+    </tr>
+     <tr>
+    	<td>7</td>
+        <td>Ask</td>
+        <td>beere</td>
+    </tr>
+     <tr>
+    	<td>8</td>
+        <td>Ate</td>
+        <td>jẹ</td>
+    </tr>
+    <tr>
+    	<td>9</td>
+    	<td>Bad</td>
+    	<td>buburu</td>
+    </tr>
+    <tr>
+    	<td>10</td>
+    	<td>Bed</td>
+    	<td>ibusun</td>
+    </tr>
+    <tr>
+    	<td>11</td>
+    	<td>Box</td>
+    	<td>apoti</td>
+    </tr>
+    <tr>
+    	<td>12</td>
+    	<td>But</td>
+    	<td>ṣugbọn</td>
+    </tr>
+    <tr>
+    	<td>13</td>
+    	<td>Buy</td>
+    	<td>ra</td>
+    </tr>
+      <tr>
+    	<td>14</td>
+    	<td>Cab</td>
+    	<td>akero</td>
+    </tr>
+      <tr>
+    	<td>15</td>
+    	<td>Can</td>
+    	<td>le</td>
+    </tr>
+      <tr>
+    	<td>16</td>
+    	<td>Cry</td>
+    	<td>igbe</td>
+    </tr>
+      <tr>
+    	<td>17</td>
+    	<td>Mad</td>
+    	<td>asiwere</td>
+    </tr>
+      <tr>
+    	<td>18</td>
+    	<td>Now</td>
+    	<td>bayi</td>
+    </tr>
+      <tr>
+    	<td>19</td>
+    	<td>Not</td>
+    	<td>ko</td>
+    </tr>
+      <tr>
+    	<td>13</td>
+    	<td>Out</td>
+    	<td>jade</td>
+    </tr>
+      <tr>
+    	<td>21</td>
+    	<td>Own</td>
+    	<td>ara</td>
+    </tr>
+      <tr>
+    	<td>22</td>
+    	<td>See</td>
+    	<td>wo</td>
+    </tr>
+    <tr>
+    	<td>23</td>
+    	<td>sun</td>
+    	<td>oorun</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+  	
+  <table class="table table-striped">
+  
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Also</td>
+      <td>tun</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Ares</td>
+      <td>agbegbe</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Away</td>
+      <td>kuro</td>
+    </tr>
+    <tr>
+    	<td>4</td>
+    	<td>Back</td>
+    	<td>pada</td>
+    </tr>
+    <tr>
+    	<td>5</td>
+    	<td>Bear</td>
+    	<td>rù</td>
+    </tr>
+    <tr>
+    	<td>6</td>
+    	<td>Base</td>
+    	<td>mimọ</td>
+    </tr>
+    <tr>
+    	<td>7</td>
+    	<td>Beat</td>
+    	<td>lu</td>
+    </tr>
+    <tr>
+    	<td>8</td>
+    	<td>Been</td>
+    	<td>ti</td>
+    </tr>
+    <tr>
+    	<td>9</td>
+    	<td>Come</td>
+    	<td>wá</td>
+    </tr>
+    <tr>
+    	<td>10</td>
+    	<td>Dark</td>
+    	<td>dudu</td>
+    </tr>
+    <tr>
+    	<td>11</td>
+    	<td>Date</td>
+    	<td>ọjọ</td>
+    </tr>
+    <tr>
+    	<td>12</td>
+    	<td>Ever</td>
+    	<td>lailai</td>
+    </tr>
+     <tr>
+    	<td>13</td>
+    	<td>Feet</td>
+    	<td>ẹsẹ</td>
+    </tr>
+     <tr>
+    	<td>14</td>
+    	<td>Fill</td>
+    	<td>fọwọsi</td>
+    </tr>
+     <tr>
+    	<td>15</td>
+    	<td>Fail</td>
+    	<td>kuna</td>
+    </tr>
+     <tr>
+    	<td>16</td>
+    	<td>Easy</td>
+    	<td>rorun</td>
+    </tr>
+     <tr>
+    	<td>17</td>
+    	<td>Exit</td>
+    	<td>Jade</td>
+    </tr>
+     <tr>
+     	<td>18</td>
+    	<td>Hide</td>
+    	<td>tọju</td>
+    	<td></td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
